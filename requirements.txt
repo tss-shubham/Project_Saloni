@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+pypdf
+sentence-transformers
+numpy
+torchvision

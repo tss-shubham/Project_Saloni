@@ -31,7 +31,7 @@ from langchain_core.documents import Document
 # Config
 # ---------------------------------------------------------------------
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # local, free, no API key
-OLLAMA_MODEL = "llama-3.1-8b-instant"   # a Groq-hosted model (name kept for app.py compatibility)
+OLLAMA_MODEL = "openai/gpt-oss-120b"   # a Groq-hosted model (name kept for app.py compatibility)
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 150
 INDEX_DIR = "faiss_index"        # kept name for backwards compatibility
